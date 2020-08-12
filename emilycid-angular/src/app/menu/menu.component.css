@@ -1,0 +1,11 @@
+a {
+    text-decoration-style: none;
+    background-color: transparent;
+}
+
+.dropdown-toggle {
+    padding-top: 0.5rem;
+    white-space: nowrap;
+    border: transparent;
+    background-color: transparent!important; /* makes dropdown have transparent background color on first page load */
+}
