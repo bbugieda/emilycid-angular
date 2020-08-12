@@ -11,14 +11,12 @@
         </li>
         <li>
             <div class="dropdown show">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Sheet Music
                 </a>
-              
-                <div class="dropdown-menu show" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a [routerLinkActive]="activeClass" routerLink='sheetmusic' class="dropdown-item" href="#">Violin</a>
+                  <a [routerLinkActive]="activeClass" routerLink='sheetmusic' class="dropdown-item" href="#">Viola</a>
                 </div>
               </div>
         </li>
