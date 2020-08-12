@@ -3,9 +3,38 @@ a {
     background-color: transparent;
 }
 
+.navbar {
+    background-color: #3f51b5;
+}
+
 .dropdown-toggle {
     padding-top: 0.5rem;
+    color: #9fa8da;
     white-space: nowrap;
     border: transparent;
     background-color: transparent!important; /* makes dropdown have transparent background color on first page load */
+}
+
+.dropdown-toggle:hover {
+    color: #e8eaf6;
+}
+
+.dropdown-toggle:active {
+    color: white;
+}
+
+.nav-link {
+    color: #9fa8da;
+}
+
+.nav-link:hover {
+    color: #e8eaf6;
+}
+
+.btn:active {
+    color: white;
+}
+
+.active {
+    color: white!important;
 }
