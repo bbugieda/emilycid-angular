@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ViolinComponent } from './violin/violin.component';
 import { ViolaComponent } from './viola/viola.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     ViolinComponent,
-    ViolaComponent
+    ViolaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
