@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { ViolinComponent } from './violin/violin.component';
+import { ViolaComponent } from './viola/viola.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ViolinComponent,
+    ViolaComponent
   ],
   imports: [
     BrowserModule,

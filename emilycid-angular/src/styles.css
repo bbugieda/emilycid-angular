@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.jumbotron {
+    background-color: #c5cae9;
+    margin-bottom: 0;
+}
