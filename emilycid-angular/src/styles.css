@@ -3,3 +3,7 @@
     background-color: #c5cae9;
     margin-bottom: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
