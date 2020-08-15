@@ -28,6 +28,7 @@ ul.social-buttons li a {
 /*Demo 1*/
 .btn-git {
     transition: transform 0.2s linear;
+    -webkit-appearance: unset; /* removes border around button on non-Chrome browsers */
 }
 
 .btn-git:hover {
