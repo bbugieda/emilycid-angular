@@ -5,6 +5,14 @@
     margin-top: 55px;
 }
 
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 16px;
+    min-height: 100vh;
+}
+
 * {
     box-sizing: border-box;
 }
