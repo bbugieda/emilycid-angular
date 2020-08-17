@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+.jumbotron {
+    background-color: #c5cae9;
+    margin-bottom: 0;
+    margin-top: 55px;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 16px;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,16 @@
+.preview-image {
+    width: 200p;
+    height: 250px;
+    overflow: hidden;
+}
+
+.btn {
+    color: #5c6bc0;
+    outline-color: #7986cb;
+    border-color: #5c6bc0;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #5c6bc0;
+}

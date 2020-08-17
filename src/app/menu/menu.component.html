@@ -1,0 +1,25 @@
+<nav class="navbar fixed-top navbar-expand navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+            <a [routerLinkActive]='activeClass' class="nav-link" routerLink='home'>Home</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLinkActive]='activeClass' class="nav-link" routerLink='recordings'>Recordings</a>
+        </li>
+        <li>
+            <div class="dropdown show">
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Sheet Music
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a [routerLinkActive]='activeClass' routerLink='violin' class="dropdown-item" href="#">Violin</a>
+                  <a [routerLinkActive]='activeClass' routerLink='viola' class="dropdown-item" href="#">Viola</a>
+                </div>
+              </div>
+        </li>
+    </ul>
+</nav>
+
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
