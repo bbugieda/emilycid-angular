@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/",
+            "outputPath": "dist/emilycid-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -117,8 +117,18 @@
               "devServerTarget": "emilycid-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://bbugieda.github.io/emilycid-angular/",
+            "repo": "https://github.com/bbugieda/emilycid-angular.git",
+            "name": "Brian Bugieda",
+            "email": "brian.bugieda@gmail.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "emilycid-angular"
 }
