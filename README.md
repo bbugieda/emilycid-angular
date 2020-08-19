@@ -26,7 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
 # Deploying to Github Pages (posting this information because it wasn't super clear how to do this)
 
 On the `master` branch, run `ng add angular-cli-ghpages`, which will create a branch called `gh-pages` that contains the code that has been compiled into javascript so it can run in the browser.
