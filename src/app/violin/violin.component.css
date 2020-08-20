@@ -26,3 +26,7 @@
     text-align: left;
     position: center;
 }
+
+.card-body {
+    background-color: #d3d0e4;
+}
