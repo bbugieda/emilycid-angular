@@ -14,3 +14,9 @@
     color: white;
     background-color: #5c6bc0;
 }
+
+.section-header {
+    color: white;
+    text-align: left;
+    position: center;
+}
