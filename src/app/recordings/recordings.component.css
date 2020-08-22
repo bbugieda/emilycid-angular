@@ -1,0 +1,30 @@
+.btn {
+    color: #5c6bc0;
+    outline-color: #7986cb;
+    border-color: #5c6bc0;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #5c6bc0;
+}
+
+.section-header {
+    color: white;
+    text-align: left;
+    position: center;
+}
+
+.sub-section-header {
+    color: #9fa8da;
+    text-align: left;
+    position: center;
+}
+
+a {
+    color: #5c6bc0;
+}
+
+.card-body {
+    background-color: #d3d0e4;
+}
