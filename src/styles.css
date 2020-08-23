@@ -1,13 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
 .jumbotron {
     background-color: #c5cae9;
     margin-bottom: 0;
     margin-top: 55px;
+
+    /* Jumbotron Background Image */
+    background-image: url(assets/img/jumbotron/purple-orchestra.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 0px!important;
+    height: 40vh;
 }
 
+/* Main Jumbotron Text */
 .jumbotron-heading {
     font-family: 'Shojumaru', cursive;
-    color: #1a237e;
+    color: #e8eaf6;
+    margin-top: 8vh;
+}
+
+/* Jumbotron Subtext */
+#jumbotron-subtext {
+    color: #c5cae9;
 }
 
 .page-content {
