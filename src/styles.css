@@ -5,6 +5,11 @@
     margin-top: 55px;
 }
 
+.jumbotron-heading {
+    font-family: 'Shojumaru', cursive;
+    color: #1a237e;
+}
+
 .page-content {
     display: flex;
     flex-wrap: wrap;
