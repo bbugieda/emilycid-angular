@@ -23,8 +23,10 @@
 }
 
 .footer-text {
-    padding-top: 6px;
-    color: #e8eaf6
+    padding-top: 15px;
+    color: #e8eaf6;
+    font-family: 'Mirza', serif;
+    font-size: 30px;
 }
 
 .container {
@@ -37,4 +39,13 @@
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 8px;
+}
+
+a {
+    color: #c5cae9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e8eaf6;
 }
