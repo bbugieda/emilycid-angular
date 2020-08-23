@@ -40,3 +40,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.section-header {
+    color: white;
+    text-align: left;
+    position: center;
+}
+
+.sub-section-header {
+    color: #9fa8da;
+    text-align: left;
+    position: center;
+}

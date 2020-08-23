@@ -1,0 +1,7 @@
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.full-page-height {
+    min-height: 100vh;
+}
