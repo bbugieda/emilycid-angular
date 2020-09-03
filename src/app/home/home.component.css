@@ -5,3 +5,13 @@
 .full-page-height {
     min-height: 100vh;
 }
+
+.btn:hover {
+    color: #5c6bc0;
+    background-color: #d3d0e4;
+}
+
+.btn {
+    color: white;
+    background-color: #5c6bc0;
+}
